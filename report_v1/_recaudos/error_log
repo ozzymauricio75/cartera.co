@@ -1,0 +1,16 @@
+[07-Jul-2017 14:31:15 America/Bogota] PHP Notice:  Undefined variable: tel1deduor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 278
+[07-Jul-2017 14:31:15 America/Bogota] PHP Notice:  Undefined variable: tel1deduor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 280
+[07-Jul-2017 14:31:15 America/Bogota] PHP Notice:  Undefined variable: tel1deduor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 282
+[07-Jul-2017 14:31:15 America/Bogota] PHP Notice:  Undefined variable: tel2deduor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 282
+[07-Jul-2017 14:31:15 America/Bogota] PHP Notice:  Undefined variable: nombrededuor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 300
+[07-Jul-2017 14:31:15 America/Bogota] PHP Notice:  Undefined variable: apellidodeduor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 300
+[07-Jul-2017 14:31:15 America/Bogota] PHP Notice:  Undefined variable: barriodeduor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 318
+[07-Jul-2017 14:31:15 America/Bogota] PHP Notice:  Undefined variable: drecciondeduor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 319
+[07-Jul-2017 14:31:28 America/Bogota] PHP Notice:  Undefined variable: tel1deduor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 278
+[07-Jul-2017 14:31:28 America/Bogota] PHP Notice:  Undefined variable: tel1deduor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 280
+[07-Jul-2017 14:31:28 America/Bogota] PHP Notice:  Undefined variable: tel1deduor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 282
+[07-Jul-2017 14:31:28 America/Bogota] PHP Notice:  Undefined variable: tel2deduor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 282
+[07-Jul-2017 14:31:28 America/Bogota] PHP Notice:  Undefined variable: nombrededuor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 300
+[07-Jul-2017 14:31:28 America/Bogota] PHP Notice:  Undefined variable: apellidodeduor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 300
+[07-Jul-2017 14:31:28 America/Bogota] PHP Notice:  Undefined variable: barriodeduor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 318
+[07-Jul-2017 14:31:28 America/Bogota] PHP Notice:  Undefined variable: drecciondeduor in /home/carterac/public_html/report/_recaudos/query-recaudos.php on line 319

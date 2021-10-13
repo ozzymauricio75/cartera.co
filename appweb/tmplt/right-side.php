@@ -1,0 +1,3 @@
+<?php
+$tmplRightSide='';
+//echo $tmplRightSide;

@@ -1,0 +1,150 @@
+[14-Jun-2017 11:08:35 America/Bogota] PHP Notice:  Undefined variable: idCreditoPOST in /home/carterac/public_html/credits/details/deudor.php on line 772
+[19-Jun-2017 21:30:41 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home/carterac/public_html/credits/details/index.php on line 1090
+[21-Jun-2017 16:48:58 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'nit_referencia_comercial' in 'field list' query: SELECT  id_deudor, primer_nombre_deudor, segundo_nombre_deudor, primer_apellido_deudor, segundo_apellido_deudor, ciudad_domicilio_deudor, estado_domicilio_deudor, dir_geo_deudor, cedula_deudor, email_deudor, tel_uno_deudor, tel_dos_deudor, nit_referencia_comercial, nombre_contato_referencia_comercial, nombre_empresa_deudor, cargo_empresa_deudor, tel_empresa_deudor FROM deudor_tbl WHERE  id_deudor = ?  LIMIT 1' in /home/carterac/public_html/appweb/lib/MysqliDb.php:1498
+Stack trace:
+#0 /home/carterac/public_html/appweb/lib/MysqliDb.php(1107): MysqliDb->_prepareQuery()
+#1 /home/carterac/public_html/appweb/lib/MysqliDb.php(558): MysqliDb->_buildQuery(1)
+#2 /home/carterac/public_html/appweb/inc/query-credits.php(10): MysqliDb->get('deudor_tbl', 1, 'id_deudor, prim...')
+#3 /home/carterac/public_html/appweb/inc/query-credits.php(300): queryDeudor(0)
+#4 /home/carterac/public_html/credits/details/index.php(34) in /home/carterac/public_html/appweb/lib/MysqliDb.php on line 1498
+[24-Jun-2017 08:04:54 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home/carterac/public_html/credits/details/index.php on line 1097
+[24-Jun-2017 08:05:09 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home/carterac/public_html/credits/details/index.php on line 1097
+[25-Jun-2017 17:19:17 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home/carterac/public_html/credits/details/usuario.php on line 66
+[25-Jun-2017 17:19:17 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home/carterac/public_html/credits/details/usuario.php on line 67
+[25-Jun-2017 17:19:17 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home/carterac/public_html/credits/details/usuario.php on line 210
+[25-Jun-2017 17:19:33 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home/carterac/public_html/credits/details/index.php on line 1097
+[25-Jun-2017 17:33:05 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'telempresarefcomerdb' in 'field list' query: UPDATE deudor_tbl SET `telempresarefcomerdb` = ?, `fecha_edita_deudor` = ? WHERE  id_deudor = ? ' in /home/carterac/public_html/appweb/lib/MysqliDb.php:1498
+Stack trace:
+#0 /home/carterac/public_html/appweb/lib/MysqliDb.php(1107): MysqliDb->_prepareQuery()
+#1 /home/carterac/public_html/appweb/lib/MysqliDb.php(684): MysqliDb->_buildQuery(NULL, Array)
+#2 /home/carterac/public_html/credits/details/crud-user.php(886): MysqliDb->update('deudor_tbl', Array)
+#3 {main}
+  thrown in /home/carterac/public_html/appweb/lib/MysqliDb.php on line 1498
+[25-Jun-2017 17:33:10 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'telempresarefcomerdb' in 'field list' query: UPDATE deudor_tbl SET `telempresarefcomerdb` = ?, `fecha_edita_deudor` = ? WHERE  id_deudor = ? ' in /home/carterac/public_html/appweb/lib/MysqliDb.php:1498
+Stack trace:
+#0 /home/carterac/public_html/appweb/lib/MysqliDb.php(1107): MysqliDb->_prepareQuery()
+#1 /home/carterac/public_html/appweb/lib/MysqliDb.php(684): MysqliDb->_buildQuery(NULL, Array)
+#2 /home/carterac/public_html/credits/details/crud-user.php(886): MysqliDb->update('deudor_tbl', Array)
+#3 {main}
+  thrown in /home/carterac/public_html/appweb/lib/MysqliDb.php on line 1498
+[25-Jun-2017 17:33:43 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home/carterac/public_html/credits/details/usuario.php on line 66
+[25-Jun-2017 17:33:43 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home/carterac/public_html/credits/details/usuario.php on line 67
+[25-Jun-2017 17:33:43 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home/carterac/public_html/credits/details/usuario.php on line 210
+[26-Jun-2017 13:43:07 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home/carterac/public_html/credits/details/usuario.php on line 66
+[26-Jun-2017 13:43:07 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home/carterac/public_html/credits/details/usuario.php on line 67
+[26-Jun-2017 13:43:07 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home/carterac/public_html/credits/details/usuario.php on line 210
+[26-Jun-2017 13:43:58 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home/carterac/public_html/credits/details/usuario.php on line 66
+[26-Jun-2017 13:43:58 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home/carterac/public_html/credits/details/usuario.php on line 67
+[26-Jun-2017 13:43:58 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home/carterac/public_html/credits/details/usuario.php on line 210
+[26-Jun-2017 13:47:17 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home/carterac/public_html/credits/details/usuario.php on line 66
+[26-Jun-2017 13:47:17 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home/carterac/public_html/credits/details/usuario.php on line 67
+[26-Jun-2017 13:47:17 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home/carterac/public_html/credits/details/usuario.php on line 210
+[27-Jun-2017 10:34:40 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home/carterac/public_html/credits/details/index.php on line 1097
+[27-Jun-2017 18:54:40 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home/carterac/public_html/credits/details/index.php on line 1097
+[28-Jun-2017 11:09:16 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home/carterac/public_html/credits/details/index.php on line 1097
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: calculo_valor_prestado_format in /home/carterac/public_html/credits/details/index.php on line 400
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: calculo_valor_credito_format in /home/carterac/public_html/credits/details/index.php on line 411
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: calculo_valor_recaudado_format in /home/carterac/public_html/credits/details/index.php on line 422
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: calculo_valor_porcobrar_format in /home/carterac/public_html/credits/details/index.php on line 433
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home/carterac/public_html/credits/details/index.php on line 454
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: nombrecompleto_deudor in /home/carterac/public_html/credits/details/index.php on line 464
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: cedula_deudor in /home/carterac/public_html/credits/details/index.php on line 468
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: fecha_InicioCredito in /home/carterac/public_html/credits/details/index.php on line 478
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: fechaPrimeraCuota in /home/carterac/public_html/credits/details/index.php on line 485
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: fechaUltimaCuota in /home/carterac/public_html/credits/details/index.php on line 492
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: tipo_credito in /home/carterac/public_html/credits/details/index.php on line 499
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: numeroCuotas in /home/carterac/public_html/credits/details/index.php on line 518
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: plazoDias in /home/carterac/public_html/credits/details/index.php on line 524
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: periocidadPlazo in /home/carterac/public_html/credits/details/index.php on line 530
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: valorCuota in /home/carterac/public_html/credits/details/index.php on line 536
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: utilidad in /home/carterac/public_html/credits/details/index.php on line 550
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: id_Credito in /home/carterac/public_html/credits/details/index.php on line 621
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: id_Credito in /home/carterac/public_html/credits/details/index.php on line 630
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: id_deudor in /home/carterac/public_html/credits/details/index.php on line 630
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: id_Credito in /home/carterac/public_html/credits/details/index.php on line 639
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: id_deudor in /home/carterac/public_html/credits/details/index.php on line 639
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: id_Credito in /home/carterac/public_html/credits/details/index.php on line 649
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: id_deudor in /home/carterac/public_html/credits/details/index.php on line 649
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: id_Credito in /home/carterac/public_html/credits/details/index.php on line 659
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: id_deudor in /home/carterac/public_html/credits/details/index.php on line 659
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: datas_CoDeudor in /home/carterac/public_html/credits/details/index.php on line 695
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: datas_RefPerso in /home/carterac/public_html/credits/details/index.php on line 698
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: datas_RefFami in /home/carterac/public_html/credits/details/index.php on line 701
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: datas_RefComer in /home/carterac/public_html/credits/details/index.php on line 704
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: datas_Cobrador in /home/carterac/public_html/credits/details/index.php on line 707
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: nombrecompleto_deudor in /home/carterac/public_html/credits/details/index.php on line 724
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: cedula_deudor in /home/carterac/public_html/credits/details/index.php on line 727
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: tel1_deudor in /home/carterac/public_html/credits/details/index.php on line 734
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: tel2_deudor in /home/carterac/public_html/credits/details/index.php on line 738
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: email_deudor in /home/carterac/public_html/credits/details/index.php on line 742
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: dirgeo_deudor in /home/carterac/public_html/credits/details/index.php on line 746
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: datas_CoDeudor in /home/carterac/public_html/credits/details/index.php on line 762
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: datas_RefPerso in /home/carterac/public_html/credits/details/index.php on line 811
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: datas_RefFami in /home/carterac/public_html/credits/details/index.php on line 856
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: datas_RefComer in /home/carterac/public_html/credits/details/index.php on line 901
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: datas_Cobrador in /home/carterac/public_html/credits/details/index.php on line 971
+[28-Jun-2017 11:44:20 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home/carterac/public_html/credits/details/index.php on line 1097
+[29-Jun-2017 09:39:35 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home/carterac/public_html/credits/details/index.php on line 1097
+[29-Jun-2017 16:58:41 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home/carterac/public_html/credits/details/usuario.php on line 66
+[29-Jun-2017 16:58:41 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home/carterac/public_html/credits/details/usuario.php on line 67
+[29-Jun-2017 16:58:41 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home/carterac/public_html/credits/details/usuario.php on line 210
+[24-Oct-2017 21:29:03 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[24-Oct-2017 21:29:03 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[02-Dec-2017 11:28:22 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[02-Dec-2017 11:28:22 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[02-Dec-2017 11:28:29 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[02-Dec-2017 11:28:29 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[02-Dec-2017 12:26:39 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[02-Dec-2017 12:26:39 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[02-Dec-2017 12:42:55 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[02-Dec-2017 12:42:55 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[02-Dec-2017 12:44:00 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[02-Dec-2017 12:44:00 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[02-Dec-2017 12:52:01 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[02-Dec-2017 12:52:01 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[02-Dec-2017 12:52:04 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[02-Dec-2017 12:52:04 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[02-Dec-2017 12:52:11 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[02-Dec-2017 12:52:11 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[02-Dec-2017 12:52:13 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[02-Dec-2017 12:52:13 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[02-Dec-2017 15:06:42 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[02-Dec-2017 15:06:42 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[02-Dec-2017 15:15:16 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[02-Dec-2017 15:15:16 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[02-Dec-2017 15:16:49 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 66
+[02-Dec-2017 15:16:49 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 67
+[02-Dec-2017 15:16:49 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home3/carterac/public_html/credits/details/usuario.php on line 210
+[02-Dec-2017 15:17:04 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 66
+[02-Dec-2017 15:17:04 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 67
+[02-Dec-2017 15:17:04 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home3/carterac/public_html/credits/details/usuario.php on line 210
+[02-Dec-2017 18:55:57 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 66
+[02-Dec-2017 18:55:57 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 67
+[02-Dec-2017 18:55:57 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home3/carterac/public_html/credits/details/usuario.php on line 210
+[02-Dec-2017 19:01:27 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 66
+[02-Dec-2017 19:01:27 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 67
+[02-Dec-2017 19:01:27 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home3/carterac/public_html/credits/details/usuario.php on line 210
+[03-Dec-2017 11:20:03 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[03-Dec-2017 11:20:03 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[06-Dec-2017 19:50:40 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 66
+[06-Dec-2017 19:50:40 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 67
+[06-Dec-2017 19:50:40 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home3/carterac/public_html/credits/details/usuario.php on line 210
+[06-Dec-2017 19:53:22 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 66
+[06-Dec-2017 19:53:22 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 67
+[06-Dec-2017 19:53:22 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home3/carterac/public_html/credits/details/usuario.php on line 210
+[07-Dec-2017 16:11:07 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[07-Dec-2017 16:11:07 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[12-Dec-2017 11:02:47 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 66
+[12-Dec-2017 11:02:47 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 67
+[12-Dec-2017 11:02:47 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home3/carterac/public_html/credits/details/usuario.php on line 210
+[22-Dec-2017 09:30:56 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 66
+[22-Dec-2017 09:30:56 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 67
+[22-Dec-2017 09:30:56 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home3/carterac/public_html/credits/details/usuario.php on line 210
+[22-Dec-2017 09:31:48 America/Bogota] PHP Notice:  Undefined variable: statusNombre in /home3/carterac/public_html/credits/details/index.php on line 301
+[22-Dec-2017 09:31:48 America/Bogota] PHP Notice:  Undefined variable: consecutivo_Credito in /home3/carterac/public_html/credits/details/index.php on line 1190
+[22-Mar-2018 10:18:58 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 66
+[22-Mar-2018 10:18:58 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 67
+[22-Mar-2018 10:18:58 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home3/carterac/public_html/credits/details/usuario.php on line 210
+[22-Mar-2018 10:24:32 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 66
+[22-Mar-2018 10:24:32 America/Bogota] PHP Notice:  Undefined index: itemid_var in /home3/carterac/public_html/credits/details/usuario.php on line 67
+[22-Mar-2018 10:24:32 America/Bogota] PHP Notice:  Undefined variable: tipo_usuario_label in /home3/carterac/public_html/credits/details/usuario.php on line 210
